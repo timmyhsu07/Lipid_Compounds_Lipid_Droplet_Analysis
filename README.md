@@ -26,7 +26,7 @@ This repository only includes the notebook. Start from a fresh clone, create the
 4. Install the Python dependencies if needed:
 
    ```bash
-   pip install cellpose numpy scikit-image matplotlib pandas czifile scipy
+   pip install "cellpose<4" numpy scikit-image matplotlib pandas czifile scipy
    ```
 
 5. Open [lipid_compound_analysis_062926.ipynb](lipid_compound_analysis_062926.ipynb) and run it top to bottom.
